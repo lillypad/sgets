@@ -6,6 +6,7 @@ NOTE: Uses 32bytes as the buffer.. Good Luck!
 
 # Build and Install
 ```bash
+git clone https://github.com/lillypad/sgets.git
 cd sgets/
 make
 make install
