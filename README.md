@@ -45,6 +45,9 @@ buffer after:
 Output: Hello World!
 ```
 
+# How Does it Work
+- Works on the premise that `gets()` uses `stdin`.
+
 # References
 - [`ungetc`](https://linux.die.net/man/3/ungetc)
 - [`fgetc`](https://linux.die.net/man/3/fgetc)
