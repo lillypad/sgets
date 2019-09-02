@@ -19,7 +19,6 @@ sgets
 ```
 
 # Interface
-
 ```text
 /-----------------------------------------------------------------------\
 |                    sgets - gets() Secure Implementation               |
@@ -45,3 +44,9 @@ buffer after:
   0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
 Output: Hello World!
 ```
+
+# References
+- [`ungetc`](https://linux.die.net/man/3/ungetc)
+- [`fgetc`](https://linux.die.net/man/3/fgetc)
+- [`dlopen`](https://linux.die.net/man/3/dlopen)
+- [`dlsym`](https://linux.die.net/man/3/dlsym)
