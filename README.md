@@ -53,3 +53,4 @@ Output: Hello World!
 - [`fgetc`](https://linux.die.net/man/3/fgetc)
 - [`dlopen`](https://linux.die.net/man/3/dlopen)
 - [`dlsym`](https://linux.die.net/man/3/dlsym)
+- [`gets`](http://man7.org/linux/man-pages/man3/gets.3.html)
