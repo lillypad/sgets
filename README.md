@@ -46,7 +46,7 @@ Output: Hello World!
 ```
 
 # How Does it Work
-- Works on the premise that `gets()` uses `stdin`.
+- Works on the premise that `gets()` uses `stdin` and terminates on `\n`.
 
 # References
 - [`ungetc`](https://linux.die.net/man/3/ungetc)
