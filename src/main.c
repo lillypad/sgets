@@ -60,11 +60,11 @@ void pause(){
 int main(){
   help_menu();
   pause();
-    void *handle = dlopen("/lib64/libc.so.6", RTLD_LAZY);
+  void *handle = dlopen("/lib64/libc.so.6", RTLD_LAZY);
   *(void**)(&sgets) = dlsym(handle, "gets");
   int c;
   char buffer[BUFFER_SIZE];
-    memset(buffer, 0, BUFFER_SIZE);
+  memset(buffer, 0, BUFFER_SIZE);
   hexdump("buffer before", buffer, BUFFER_SIZE);
   printf("Good Luck! ┌∩┐(◣_◢)┌∩┐: ");
   for (int i = 0; i < BUFFER_SIZE - 1 ; i++){
